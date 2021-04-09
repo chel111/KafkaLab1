@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KafkaConsumer", "KafkaConsumer\KafkaConsumer.csproj", "{35A83594-A5D9-408D-95AF-4C0FF0C392CE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F31C703C-AD89-407E-A497-B6802BE4A27D}"
+	ProjectSection(SolutionItems) = preProject
+		docker-compose.yml = docker-compose.yml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaProducer", "KafkaProducer\KafkaProducer.csproj", "{82F6CBB8-04C1-49D4-A292-6E286DA8BF7D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35A83594-A5D9-408D-95AF-4C0FF0C392CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35A83594-A5D9-408D-95AF-4C0FF0C392CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35A83594-A5D9-408D-95AF-4C0FF0C392CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35A83594-A5D9-408D-95AF-4C0FF0C392CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82F6CBB8-04C1-49D4-A292-6E286DA8BF7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82F6CBB8-04C1-49D4-A292-6E286DA8BF7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82F6CBB8-04C1-49D4-A292-6E286DA8BF7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82F6CBB8-04C1-49D4-A292-6E286DA8BF7D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E411E886-4F44-4FBB-8399-959175633B81}
+	EndGlobalSection
+EndGlobal
